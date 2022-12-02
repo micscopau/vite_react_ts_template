@@ -34,6 +34,9 @@
         "no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars": ["warn"],
         "@typescript-eslint/explicit-function-return-type": ["warn"],
-        "react/react-in-jsx-scope": "off"
+        "no-empty-function": "off",
+        "@typescript-eslint/no-empty-function": ["error", {"allow": ["private-constructors"]}],
+        "react/react-in-jsx-scope": "off",
+        "indent": ["error", 2]
     }
 }
